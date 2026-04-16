@@ -1,12 +1,12 @@
 Date - 17/04/2026
 =================
 
-Device: veux
+Device: stone (sunstone, moonstone)
 Maintainer: suchit-7x
 
 - Android-16 QPR2 (16.2)
 - Updated prebuilts
-- Built with latest blobs
+- Updated Blobs from OS2.0.9.0.UMQEUXM
 
 
 Note: This initial release of SuperiorOS
