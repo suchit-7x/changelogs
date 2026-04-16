@@ -1,0 +1,12 @@
+Date - 16/04/2026
+=================
+
+Device: veux
+Maintainer: suchit-7x
+
+- Android-16 QPR2 (16.2)
+- Updated prebuilts
+- Built with latest blobs
+
+
+Note: This initial release of SuperiorOS
