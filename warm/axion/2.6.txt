@@ -1,0 +1,12 @@
+Date - 17/05/2026
+=================
+
+Device: warm
+Maintainer: suchit-7x
+
+- Android-16 QPR2 (16.2)
+- Updated Blobs from OS3.0.3.0.WGVINXM
+- Bluetooth audio not working
+- Fingerprint scanner not working for some users
+
+Note: This initial release of AxionOs
