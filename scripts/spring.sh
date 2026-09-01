@@ -82,7 +82,7 @@ m bacon -j$(nproc --all);
 
 echo "Upload to GoFile will be started..."
 
-ZIP=$(find out/target/product/blossom -maxdepth 1 -type f -name "*.zip" | head -n 1)
+ZIP=$(find out/target/product/spring -maxdepth 1 -type f -name "*.zip" | head -n 1)
 
 if [ -n "$ZIP" ]; then
     echo "Uploading $ZIP..."
