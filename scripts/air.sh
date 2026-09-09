@@ -35,6 +35,9 @@ cd device/xiaomi/air
 ./extract-files.py ../../../dump/air
 cd ../../..
 
+# Mediatek Components
+git clone https://github.com/SiliconxLab/android_hardware_mediatek hardware/mediatek;
+
 # Mediatek IMS
 git clone https://github.com/SiliconxLab/android_vendor_mediatek_ims vendor/mediatek/ims;
 
