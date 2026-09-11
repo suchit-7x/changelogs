@@ -57,7 +57,7 @@ ln -sf ../common/os_pickup_qssi.bp hardware/qcom-caf/sm6375-6.1/Android.bp;
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi;
 
 # Gapps
-git clone https://github.com/MindTheGapps/vendor_gapps -b baklava vendor/gms
+git clone https://github.com/MindTheGapps/vendor_gapps -b baklava vendor/gapps;
 
 # Sign Builds
 git clone https://github.com/suchit-7x/android_vendor_lineage-priv_keys vendor/lineage-priv/keys;
