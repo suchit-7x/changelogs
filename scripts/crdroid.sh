@@ -58,6 +58,7 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi;
 
 # Gapps
 git clone https://github.com/MindTheGapps/vendor_gapps -b baklava vendor/gapps;
+rm -rf vendor/gms;
 
 # Sign Builds
 git clone https://github.com/suchit-7x/android_vendor_lineage-priv_keys vendor/lineage-priv/keys;
