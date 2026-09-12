@@ -24,7 +24,7 @@ echo " clone device tree "
 echo "==================="
 
 # Device
-git clone https://github.com/SiliconxLab/android_device_xiaomi_spring device/xiaomi/spring;
+git clone https://github.com/spring4ever/android_device_xiaomi_spring device/xiaomi/spring;
 
 # Kernel (prebuilt)
 git clone https://gitlab.com/Niyush-04/android_device_xiaomi_spring-kernel.git device/xiaomi/spring-kernel;
@@ -56,10 +56,6 @@ ln -sf ../common/os_pickup_qssi.bp hardware/qcom-caf/sm6375-6.1/Android.bp;
 # Xiaomi Components
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi;
 
-# Gapps
-git clone https://github.com/MindTheGapps/vendor_gapps -b baklava vendor/gapps;
-rm -rf vendor/gms;
-
 # Sign Builds
 git clone https://github.com/suchit-7x/android_vendor_lineage-priv_keys vendor/lineage-priv/keys;
 cd vendor/lineage-priv/keys
@@ -81,6 +77,7 @@ rm -rf build/soong/fsgen;
 echo "build started!..."
 
 . build/envsetup.sh;
+lunch lineage_spring-bp4a-userdebug;
 brunch spring;
 
 echo "Upload to GoFile will be started..."
